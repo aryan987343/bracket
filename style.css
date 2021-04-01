@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+section {
+    background-color:aqua;
+    height: 1000px;
+    width:100%;
+}
+img:hover {
+    transform: scale(0.9);
+}
+img {
+    transition:transform 0.2s;
+}
+.line {
+    margin:9px auto;
+    background-color: aliceblue;
+    width:90px;
+    height:10px;
+}
